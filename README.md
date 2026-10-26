@@ -37,6 +37,7 @@ AI Agent 的生态现在分三层，记住这三层，看什么都清楚：
 - **Model Context Protocol** —— Anthropic 提出的开放标准，让 Agent 用统一方式连上数据库、邮箱、GitHub 等外部系统；2025-12 捐给 Linux 基金会（Agentic AI Foundation）。官方文档 [modelcontextprotocol.io](https://modelcontextprotocol.io)，仓库 [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)。安装常常一行：`claude mcp add --transport http <name> <url>`。据 2026 年初统计，月下载量已近亿级。
 - **官方参考服务器合集** —— [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)，官方维护的各类 MCP server（文件系统、GitHub、Fetch 等），新手从这里挑着装。
 - **awesome-mcp** —— 社区维护的 MCP 客户端 / 服务器 / 教程精选，找现成 server 先来这（GitHub 搜 `awesome-mcp`）。
+- **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)** —— 面向 Agent 的本地支付 MCP 工具，检查 x402 报价、准备受限支付并查询状态与收据；仅支持 Apple Silicon macOS 和 Node 24，可用 `brew install nuanu-ai/tap/apn` 安装。
 
 ## 🧩 能力层：Agent Skills
 
